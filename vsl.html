@@ -40,6 +40,17 @@
 });
 
 	</script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+    var conteudo = document.getElementById('conteudo2');
+    conteudo.style.display = 'none'; // Esconder o elemento inicialmente
+
+    setTimeout(function() {
+        conteudo.style.display = 'block'; // Mostrar o elemento após 30 minutos
+    }, 20000); // 30 minutos em milissegundos
+});
+
+	</script>
     <meta name="theme-color" content="#834496">
     <meta property="og:title" content="(1) Free Presentation">
     <meta property="og:description" content="">
@@ -96,7 +107,7 @@
 	</center>     </div>
       </div>
     </section>
-	  <div id="conteudo">
+	  <div id="conteudo2">
     <section class="u-clearfix u-section-2" id="sec-912f">
 	   
       <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
